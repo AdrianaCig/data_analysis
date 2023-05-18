@@ -5,3 +5,15 @@ FROM `shaped-pride-383416.Restaurant_orders.Orders`
 
 SELECT *
 FROM `shaped-pride-383416.Restaurant_orders.Restaurants`
+
+# 1. What restaurant received the most orders?
+
+# 2. What restaurant saw most sales?
+
+# 3. What customer ordered the most?
+
+# 4. When do customers order more during the day?
+
+# 5. What is the most favourite cuisine?
+
+# 6. What zone has the most sales?
