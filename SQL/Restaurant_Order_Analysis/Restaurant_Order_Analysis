@@ -1,0 +1,7 @@
+# Getting familiar with tables Orders and Restaurants
+
+SELECT *
+FROM `shaped-pride-383416.Restaurant_orders.Orders`
+
+SELECT *
+FROM `shaped-pride-383416.Restaurant_orders.Restaurants`
