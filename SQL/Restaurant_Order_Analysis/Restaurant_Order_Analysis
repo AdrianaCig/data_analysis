@@ -8,12 +8,59 @@ FROM `shaped-pride-383416.Restaurant_orders.Restaurants`
 
 # 1. What restaurant received the most orders?
 
+SELECT count(Order_ID), RestaurantName
+FROM `shaped-pride-383416.Restaurant_orders.Orders` AS ord
+JOIN `shaped-pride-383416.Restaurant_orders.Restaurants` AS rest
+  ON ord.Restaurant_ID = rest.RestaurantID
+GROUP BY RestaurantName
+ORDER BY count(Order_ID) DESC
+
+# Answer: Both Ellora and The Cave Hotel (32)
+
 # 2. What restaurant saw most sales?
+
+SELECT sum(Order_Amount), RestaurantName
+FROM `shaped-pride-383416.Restaurant_orders.Orders` AS ord
+JOIN `shaped-pride-383416.Restaurant_orders.Restaurants` AS rest
+  ON ord.Restaurant_ID = rest.RestaurantID
+GROUP BY RestaurantName
+ORDER BY sum(Order_Amount) DESC
+
+# Answer: Veer Restaurant
 
 # 3. What customer ordered the most?
 
+SELECT count(Order_ID), Customer_Name
+FROM `shaped-pride-383416.Restaurant_orders.Orders` AS ord
+JOIN `shaped-pride-383416.Restaurant_orders.Restaurants` AS rest
+  ON ord.Restaurant_ID = rest.RestaurantID
+GROUP BY Customer_Name
+ORDER BY count(Order_ID) DESC
+
+# Answer: Srini
+
 # 4. When do customers order more during the day?
 
-# 5. What is the most favourite cuisine?
+
+
+# 5. What is the most popular cuisine?
+
+SELECT count(Order_ID), Cuisine
+FROM `shaped-pride-383416.Restaurant_orders.Orders` AS ord
+JOIN `shaped-pride-383416.Restaurant_orders.Restaurants` AS rest
+  ON ord.Restaurant_ID = rest.RestaurantID
+GROUP BY Cuisine
+ORDER BY count(Order_ID) DESC
+
+# Answer: Both Chinese and North Indian
 
 # 6. What zone has the most sales?
+
+SELECT sum(Order_Amount), Zone
+FROM `shaped-pride-383416.Restaurant_orders.Orders` AS ord
+JOIN `shaped-pride-383416.Restaurant_orders.Restaurants` AS rest
+  ON ord.Restaurant_ID = rest.RestaurantID
+GROUP BY Zone
+ORDER BY sum(Order_Amount) DESC
+
+# Answer: Zone D
