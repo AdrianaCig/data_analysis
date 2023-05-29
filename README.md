@@ -15,4 +15,5 @@
     * [Restaurant Order Analysis](https://github.com/AdrianaCig/data_analysis_portfolio/tree/114093c6a73c881da8ac0cd8b36247192e454255/SQL/Restaurant_Order_Analysis)
 
 * [R programming](https://github.com/AdrianaCig/data_analysis_portfolio/tree/114093c6a73c881da8ac0cd8b36247192e454255/R)
+    * [Palmer Penguin Analysis](https://github.com/AdrianaCig/data_analysis_portfolio/tree/3aa42a103f6801837b7a10f85c22f0defe843610/R/Palmer_Penguin_Analysis)
 
