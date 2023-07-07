@@ -12,6 +12,7 @@
 
 * [Tableau](https://github.com/AdrianaCig/data_analysis_portfolio/tree/114093c6a73c881da8ac0cd8b36247192e454255/Tableau)
     * [Customer Analysis Dashboard](https://github.com/AdrianaCig/data_analysis_portfolio/blob/114093c6a73c881da8ac0cd8b36247192e454255/Tableau/Customer%20Analysis%20.twbx)
+    * * [Road Accident Dashboard](https://github.com/AdrianaCig/data_analysis_portfolio/blob/0db469d47e2b3a2b0a9324ad34705136721ad4c9/Tableau/Road_Accident_Dashboard.pdf)
 
 * [SQL](https://github.com/AdrianaCig/data_analysis_portfolio/tree/114093c6a73c881da8ac0cd8b36247192e454255/SQL)
     * [Restaurant Order Analysis](https://github.com/AdrianaCig/data_analysis_portfolio/tree/114093c6a73c881da8ac0cd8b36247192e454255/SQL/Restaurant_Order_Analysis)
