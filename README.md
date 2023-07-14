@@ -16,6 +16,7 @@
 
 * [SQL](https://github.com/AdrianaCig/data_analysis_portfolio/tree/114093c6a73c881da8ac0cd8b36247192e454255/SQL)
     * [Restaurant Order Analysis](https://github.com/AdrianaCig/data_analysis_portfolio/tree/114093c6a73c881da8ac0cd8b36247192e454255/SQL/Restaurant_Order_Analysis)
+    *  [KPI and Retention Calculations](https://github.com/AdrianaCig/data_analysis_portfolio/blob/c17732bc7b54719f0b1da0bd351ed84d942ca5f7/SQL/KPI_Retention.sql)
 
 * [R programming](https://github.com/AdrianaCig/data_analysis_portfolio/tree/114093c6a73c881da8ac0cd8b36247192e454255/R)
     * [Palmer Penguin Analysis](https://github.com/AdrianaCig/data_analysis_portfolio/tree/3aa42a103f6801837b7a10f85c22f0defe843610/R/Palmer_Penguin_Analysis)
